@@ -54,8 +54,8 @@ Packages/Setup:
 ### set up environment 
 import os
 import sys
-sys.path.append("/home/hieu.tranlm/sample_model/")
-os.chdir("/home/hieu.tranlm/sample_model/")
+sys.path.append("/home/.../sample_model/")
+os.chdir("/home/.../sample_model/")
 
 import pandas as pd
 import seaborn as sns
@@ -139,6 +139,21 @@ precision on test:  0.4579831932773109
 recall on train:  0.7383900928792569
 recall on test:  0.7171052631578947
 ```
+
+***3.4. PSI Calculation***
+
+- PSI values are calculated to check distribution shifts between the training and test data
+- PSI of all indipendent variables < 0.1, so there is no significant shift
+
+![image](https://github.com/mynameishieu/Logistic-Regression-HMEQ/blob/main/docs/performance/PSI_variables.png)
+
+***3.5. Variable Correlation***
+
+The correlation chart shows a low correlation between predictors (if predictors have high correlation (>=0.7), they should be excluded)
+- Most correlation values are close to 0, meaning weak or no linear relationships between variables.
+- This suggests that the features are not highly collinear, which is good for logistic regression model.
+
+![image](https://github.com/mynameishieu/Logistic-Regression-HMEQ/blob/main/docs/performance/variable_correlation.png)
 
 **4. Credit Score calculation**
 
