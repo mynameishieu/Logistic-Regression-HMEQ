@@ -202,4 +202,4 @@ A credit score evaluates a client's reliability in repaying debts to the bank. A
 
 ![image](https://www.investopedia.com/thmb/CMpgQ5ze8UECRpREBJhAg2xx1yc=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/FICO-Scores-0474cc0ca87b4b58b9391f065f623c0f.jpg)
 
-To mitigate risk, the bank may enforce stricter lending criteria or additional conditions. For instance, clients classified in the "Very Poor" category may be required to pay a loan fee, provide a deposit, or, in some cases, may be rejected a loan altogether.
+To mitigate risk, the bank may enforce stricter lending criteria or additional conditions. For instance, clients classified in the "Poor" category may be required to pay a loan fee, provide a deposit, or, in some cases, may be rejected a loan altogether.
