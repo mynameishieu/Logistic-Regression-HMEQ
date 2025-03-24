@@ -79,6 +79,7 @@ There are some points that should be listed:
 - Imbalance: The "BAD" variable shows a significant class imbalance, with far more "good" cases than "bad" cases.
 - Categorical Dominance: The "REASON" variable is dominated by one category ("DebtCon").
 - Missing Values: "Missing" categories are present in both REASON and JOB, indicating potential data quality issues.
+
 ![image](https://github.com/mynameishieu/Logistic-Regression-HMEQ/blob/main/docs/graphics/Variable%20distribution.png)
 
 **2. Estimation of predictive power for variables**
@@ -86,6 +87,7 @@ There are some points that should be listed:
 - The strongest variables are "DELINQ" and "DEBTINC", but "DEBTINC" should be checked for overpredicting as IV >= 0.5
 - "CLAGE", "DEROG", "LOAN", "VALUE", and "JOB" have medium predictive power.
 - The remaining variables, including "NINQ", "YOJ", "CLNO", and "MORTDUE", also have classification power, but they are weaker.
+
 ![image](https://github.com/mynameishieu/Logistic-Regression-HMEQ/blob/main/docs/graphics/Predictive%20power%20estimation%20-%20IV.png)
 
 **3. Development Performance**
